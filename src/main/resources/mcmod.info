@@ -1,0 +1,20 @@
+[
+  {
+    "modid": "pixelmoncheck",
+    "name": "PixelmonCheck",
+    "description": "A mod to check if Pixelmon is installed.",
+    "version": "${version}",
+    "mcversion": "${mcversion}",
+    "url": "http://www.SnatchyBuckles.com/",
+    "updateUrl": "",
+    "authorList": [
+      "Cocanuta"
+    ],
+    "credits": "",
+    "logoFile": "",
+    "screenshots": [],
+    "dependencies": [
+      "pixelmon"
+    ]
+  }
+]
