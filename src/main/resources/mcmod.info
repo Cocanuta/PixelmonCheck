@@ -3,7 +3,7 @@
     "modid": "pixelmoncheck",
     "name": "PixelmonCheck",
     "description": "A mod to check if Pixelmon is installed.",
-    "version": "${version}",
+    "version": "0.2",
     "mcversion": "${mcversion}",
     "url": "http://www.SnatchyBuckles.com/",
     "updateUrl": "",
