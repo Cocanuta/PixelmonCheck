@@ -19,7 +19,7 @@ public class PixelmonCheck
 
 	public static final String MOD_ID = "pixelmoncheck";
 	public static final String MOD_NAME = "PixelmonCheck";
-	public static final String VERSION = "0.1";
+	public static final String VERSION = "0.2";
 
 	public static Configuration configFile;
 
@@ -50,7 +50,7 @@ public class PixelmonCheck
 
 	public static void syncConfig()
 	{
-		PIXELMON_VERSION = configFile.getString("pixelmonversion", Configuration.CATEGORY_GENERAL, "0.0.5-beta7", "pixelmonversion");
+		PIXELMON_VERSION = configFile.getString("pixelmonversion", Configuration.CATEGORY_GENERAL, "5.0.0-beta7", "pixelmonversion");
 
 		if(configFile.hasChanged())
 		{
