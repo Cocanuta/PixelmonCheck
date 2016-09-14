@@ -50,7 +50,7 @@ public class PixelmonCheck
 
 	public static void syncConfig()
 	{
-		PIXELMON_VERSION = configFile.getString("pixelmonversion", Configuration.CATEGORY_GENERAL, PIXELMON_VERSION, "pixelmonversion");
+		PIXELMON_VERSION = configFile.getString("pixelmonversion", Configuration.CATEGORY_GENERAL, "0.0.5-beta7", "pixelmonversion");
 
 		if(configFile.hasChanged())
 		{
